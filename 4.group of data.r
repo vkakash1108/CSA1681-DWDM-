@@ -1,0 +1,11 @@
+age=c(200,300,400,600,1000)
+Mean=mean(age)
+mini=min(age)
+maxi=max(age)
+minmax=(age-mini)/(maxi-mini)
+std=sd(age)
+zscore=(age-Mean)/std
+print(Zscore)
+print(Mean)
+print(zscore)
+print(minmax)
